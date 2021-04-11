@@ -8,7 +8,7 @@ const App: React.FC = () => {
     <React.StrictMode>
       <LoggedOut>
         <section className="section">
-          <p className="content">Please connect to your Pod to start taking notes.</p>
+          <p className="content">Please connect to your Pod to send / receive funds.</p>
           <p className="content">
             <PodConnecter/>
           </p>
